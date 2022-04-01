@@ -24,7 +24,6 @@ class Parking_Garage():
             else:
                 print("You need to pay for your parking.")
 
-        
     def leave_garage(self):
          if self.current_tickets[new_ticket] == "unpaid":
             print("You need to pay now.")
@@ -34,10 +33,13 @@ class Parking_Garage():
 
     def run():
         while True:
-            response = input("What would you like to do? Options: take ticket, leave")
+            response = input("What would you like to do? Options: take ticket, leave, pay")
             if response.lower() == "take ticket":
-                
-
+                pass
+            if response.lower() == "leave"
+                pass
+            if response.lower() == "pay"
+                pass
 
 
          #if unpaid, run paid method
